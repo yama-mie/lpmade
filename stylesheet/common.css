@@ -1,0 +1,20 @@
+button:hover {
+    opacity: 0.7;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+}
+
+.header-link {
+    background-color: #022432;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 25px;
+    width: max-content;
+    position : relative;
+    margin-right: 15px;
+}
