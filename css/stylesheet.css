@@ -8,6 +8,21 @@ header {
     margin-top: 15px;
 }
 
+header button {
+    background-color: #022432;
+    padding: 10px 25px;
+    position : relative;
+    margin-right: 15px;
+}
+
+.header-link {
+    color: white;S
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+
 main {
     position: relative;
   }
