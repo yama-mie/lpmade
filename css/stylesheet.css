@@ -11,14 +11,14 @@ header {
     position:relative;
 }
     
-.mobilephone-container {
+.worker-container {
     background-color: #e6e6fa;
     width: 50%;
     height: 900px;
     text-align: center;
 }
     
-.pc-container {
+.client-container {
     background-color: #d8bfd8;
     width: 50%;
     height: 900px;
