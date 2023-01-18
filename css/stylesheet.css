@@ -1,0 +1,42 @@
+header {
+    gap: 15px;
+    display: flex;
+    position: absolute;
+    right: 10px;
+    z-index: 100;
+    top: 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.header-link {
+    background-color: #022432;
+    padding: 10px 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    position: relative;
+  }
+ 
+.main-content {
+    display: flex;
+}
+    
+.worker-container {
+    background-color: #e6e6fa;
+    width: 50%;
+    height: 900px;
+    text-align: center;
+}
+    
+.client-container {
+    background-color: #d8bfd8;
+    width: 50%;
+    height: 900px;
+    text-align: center;
+}
