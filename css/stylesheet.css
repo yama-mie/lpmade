@@ -18,13 +18,20 @@ header {
     text-decoration: none;
     border-radius: 5px;
 }
-
-main {
-    position: relative;
-  }
  
 .main-content {
+    position: relative;
     display: flex;
+}
+
+.main-logo {
+    position: absolute;
+    z-index: 100;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 460px;
+    height: 143px;
 }
     
 .worker-container {
@@ -40,3 +47,21 @@ main {
     height: 900px;
     text-align: center;
 }
+
+.mobile {
+    height: 400px;
+    margin-top: 100px;
+    position:relative;
+}
+    
+.laptop {
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.logo-sub {
+    width: fit-content;
+    margin: 0 auto;
+}
+    
