@@ -64,4 +64,53 @@ header {
     width: fit-content;
     margin: 0 auto;
 }
+
+.main-content h3 {
+    margin-top: 0px;
+    margin-bottom:30px;
+}
     
+.login-link {
+    height: 40px;
+    width:120px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 18px 60px;
+}
+
+.login-link:hover {
+    box-shadow: 5px 5px 10px #808080; 
+}
+
+.worker-login-link {
+    background-color: #00bfff;
+}
+    
+.client-login-link {
+    background-color: #4682b4;
+}
+
+.more-link {
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.worker-more-link {
+    color: #00bfff;
+}
+
+.client-more-link {
+    color: #4682b4;
+}
+
+.main-content p {
+    font-size: 12px;
+}
+
+.main-content li {
+    margin-top: 20px; 
+}
