@@ -111,6 +111,9 @@ header {
     font-size: 12px;
 }
 
-.main-content li {
-    margin-top: 20px; 
+.main-text-area {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
