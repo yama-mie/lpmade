@@ -112,6 +112,7 @@ header {
 
 .main-content p {
     font-size: 12px;
+    color: #000;
 }
 
 .main-text-area {
@@ -119,4 +120,5 @@ header {
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    line-height: 20px;
 }
