@@ -71,14 +71,17 @@ header {
 }
     
 .login-link {
-    height: 40px;
-    width:120px;
     color: white;
     font-weight: bold;
     font-size: 16px;
     border-radius: 5px;
     text-decoration: none;
-    padding: 18px 60px;
+    display: inline-block;
+    width: 370px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .login-link:hover {
