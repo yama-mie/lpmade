@@ -1,3 +1,8 @@
+:root {
+    --color-primary: #00bfff;
+    --color-secondary: #4682b4;
+}
+
 header {
     gap: 15px;
     display: flex;
@@ -104,11 +109,11 @@ h2 span {
 }
 
 .worker-login-link {
-    background-color: #00bfff;
+    background: var(--color-primary);
 }
     
 .client-login-link {
-    background-color: #4682b4;
+    background: var(--color-secondary)
 }
 
 .more-link {
@@ -117,12 +122,16 @@ h2 span {
     font-size: 16px;
 }
 
+.more-link:hover  {
+    text-decoration: none;
+}
+
 .worker-more-link {
-    color: #00bfff;
+    color: var(--color-primary)
 }
 
 .client-more-link {
-    color: #4682b4;
+    color: var(--color-secondary)
 }
 
 .main-text-area p {
