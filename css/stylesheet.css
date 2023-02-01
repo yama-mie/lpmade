@@ -33,6 +33,10 @@ header {
     width: 460px;
     height: 143px;
 }
+
+.responsive-logo {
+    display: none !important;
+}
     
 .worker-container {
     background-color: #e6e6fa;
@@ -53,11 +57,19 @@ header {
     margin-top: 100px;
     position:relative;
 }
+
+.reponsive-mobile {
+    display: none !important;
+}
     
 .laptop {
     width: 500px;
     height: 400px;
     margin-top: 100px;
+}
+
+.reponsive-laptop {
+    display: none !important;
 }
 
 .sub-logo {
