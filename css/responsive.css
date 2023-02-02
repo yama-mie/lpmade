@@ -15,7 +15,7 @@
      left: 50%;
      transform: translate(-50%);
      width: 200px;
-    height: 60px;
+     height: 60px;
  }
  
  .sub-logo {
@@ -58,6 +58,7 @@
  .reponsive-mobile {
     display: block !important;
     margin: 200px auto 0;
+    max-width: 100%;
  }
  
  .laptop {
@@ -67,6 +68,7 @@
  .reponsive-laptop {
     display: block !important;
     width: 502px;
+    max-width: 100%;
  }
  
  }
