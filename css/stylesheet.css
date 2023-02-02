@@ -113,7 +113,7 @@ h2 span {
 }
     
 .client-login-link {
-    background: var(--color-secondary)
+    background: var(--color-secondary);
 }
 
 .more-link {
@@ -127,11 +127,11 @@ h2 span {
 }
 
 .worker-more-link {
-    color: var(--color-primary)
+    color: var(--color-primary);
 }
 
 .client-more-link {
-    color: var(--color-secondary)
+    color: var(--color-secondary);
 }
 
 .main-text-area p {
