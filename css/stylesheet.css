@@ -54,16 +54,12 @@ header {
 }
 
 .mobile {
-    height: 400px;
-    margin-top: 100px;
-    position:relative;
+    margin-top: 100px; 
     max-width: 100%;
 }
 
     
 .laptop {
-    width: 500px;
-    height: 400px;
     margin-top: 100px;
     max-width: 100%;
 }

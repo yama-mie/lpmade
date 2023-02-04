@@ -39,14 +39,11 @@
  }
  
  .reponsive-mobile {
-    display: block !important;
     margin: 200px auto 0;
     max-width: 100%;
  }
  
- .reponsive-laptop {
-    display: block !important;
-    width: 502px;
+ .reponsive-laptop { 
     max-width: 100%;
  }
  
