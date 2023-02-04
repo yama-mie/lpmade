@@ -38,7 +38,11 @@ header {
     width: 460px;
     height: 143px;
 }
-    
+
+.main-logo img {
+    margin: 5px;
+}
+
 .worker-container {
     background-color: #e6e6fa;
     width: 50%;
