@@ -42,14 +42,14 @@ header {
 .worker-container {
     background-color: #e6e6fa;
     width: 50%;
-    height: 1100px;
+    padding: 10px 40px 80px 32px;
     text-align: center;
 }
     
 .client-container {
     background-color: #d8bfd8;
     width: 50%;
-    height: 1100px;
+    padding: 10px 40px 100px 32px;
     text-align: center;
 }
 
