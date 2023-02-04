@@ -39,10 +39,6 @@ header {
     height: 143px;
 }
 
-.main-logo img {
-    margin: 5px;
-}
-
 .worker-container {
     background-color: #e6e6fa;
     width: 50%;
@@ -62,7 +58,6 @@ header {
     max-width: 100%;
 }
 
-    
 .laptop {
     margin-top: 100px;
     max-width: 100%;
@@ -70,7 +65,12 @@ header {
 
 .sub-logo {
     width: fit-content;
-    margin: 0 auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.title-logo {
+    margin-top: 10px;
 }
 
 .main-text-area h2 {
