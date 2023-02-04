@@ -55,11 +55,13 @@ header {
 .mobile {
     margin-top: 100px; 
     max-width: 100%;
+    display: block;
 }
 
 .laptop {
     margin-top: 100px;
     max-width: 100%;
+    display: block;
 }
 
 .sub-logo {
@@ -70,6 +72,7 @@ header {
 
 .title-logo {
     margin-top: 10px;
+    display: block;
 }
 
 .main-text-area h2 {
