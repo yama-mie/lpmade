@@ -37,12 +37,12 @@
       text-align: center;
  }
  
- .reponsive-mobile {
+ .mobile {
       margin: 200px auto 0;
       max-width: 100%;
  }
  
- .reponsive-laptop { 
+ .laptop { 
       max-width: 100%;
  }
  
