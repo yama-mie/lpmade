@@ -1,49 +1,54 @@
 * {
-      box-sizing: border-box;
+     box-sizing: border-box;
  }
  
  @media screen and (max-width: 767px) {
  
  header {
-      display: none;
+     display: none;
  }
  
  .main-logo {
-      position: absolute;
-      z-index: 100;
-      top: 50px;
-      left: 50%;
-      transform: translate(-50%);
-      width: 200px;
+     position: absolute;
+     z-index: 100;
+     top: 50px;
+     left: 50%;
+     transform: translate(-50%);
+     width: 200px;
  }
  
  .main-text-area p {
-      font-size: 12px;
+     font-size: 12px;
+ }
+
+ .main-text-area {
+      transform: none;
  }
  
  .main-content {
-      flex-direction: column;
+     flex-direction: column;
  }
  
  .worker-container {
-      padding: 90px 32px 60px 32px;
-      width: 100%;
-      text-align: center;
+     padding: 40px 32px 60px 32px;
+     width: 100%;
+     text-align: center;
  }
      
  .client-container {
-      width: 100%;
-      padding: 15px 32px 60px 32px;
-      text-align: center;
+     width: 100%;
+     padding: 40px 32px 60px 32px;
+     text-align: center;
  }
  
  .mobile {
-      margin: 200px auto 0;
-      max-width: 100%;
+     margin-top: 150px;
+     max-width: 300px;
+     display: block;
  }
  
  .laptop { 
-      max-width: 100%;
+     max-width: 311px;
+     display: block;
  }
- 
  }

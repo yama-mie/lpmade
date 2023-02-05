@@ -41,27 +41,27 @@ header {
 .worker-container {
     background-color: #e6e6fa;
     width: 50%;
-    padding: 10px 40px 80px 32px;
+    padding: 100px 40px 80px 40px;
     text-align: center;
 }
     
 .client-container {
     background-color: #d8bfd8;
     width: 50%;
-    padding: 10px 40px 100px 32px;
+    padding: 100px 40px 80px 40px;
     text-align: center;
 }
 
 .mobile {
-    margin-top: 100px; 
-    max-width: 100%;
+    max-width: 386px;
     display: block;
+    margin: 0 auto;
 }
 
 .laptop {
-    margin-top: 100px;
-    max-width: 100%;
+    max-width: 549px;
     display: block;
+    margin: 0 auto;
 }
 
 .sub-logo {
@@ -146,4 +146,5 @@ p span {
     justify-content: center;
     line-height: 20px;
     font-weight: bold;
+    transform: translate( 0, -120px);
 }
