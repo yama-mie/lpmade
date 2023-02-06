@@ -23,6 +23,11 @@ header {
     text-decoration: none;
     border-radius: 5px;
 }
+
+main {
+    min-width: 1024px;
+    overflow: hidden;
+}
  
 .main-content {
     position: relative;
@@ -67,7 +72,7 @@ header {
 .sub-logo {
     width: fit-content;
     display: block;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 .title-logo {
