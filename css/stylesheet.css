@@ -58,13 +58,13 @@ main {
 }
 
 .mobile {
-    max-width: 386px;
+    width: 386px;
     display: block;
     margin: 0 auto;
 }
 
 .laptop {
-    max-width: 549px;
+    width: 549px;
     max-width: inherit;
     display: block;
     margin: 0 auto;
