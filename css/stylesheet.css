@@ -154,3 +154,53 @@ p span {
     font-weight: bold;
     transform: translate( 0, -120px);
 }
+
+.introduce {
+    margin: 100px auto;
+    width: 90%; 
+}
+
+.section-headline span {
+    color: #426579;
+    width: max-content;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.section-headline span::after {
+	display: inline;
+	content: "";
+	width: 100%;
+	height: 10px;
+	background-color: #b0c4de;
+	position:absolute;
+	bottom: -10px;
+	left: 0;
+	border-radius: 10px;
+	z-index: 100; 
+}
+
+.introduce h3 {
+    font-size: 28px;
+}
+
+.company-list-wrapper {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.company-list {
+    width: 200px;
+    height: 112px;
+    margin: 20px;
+}
+
+.company-logo {
+    width: 100%;
+}
+
+  
