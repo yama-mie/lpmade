@@ -28,7 +28,7 @@ main {
     min-width: 1024px;
     overflow: hidden;
 }
- 
+
 .main-content {
     position: relative;
     display: flex;
@@ -49,7 +49,7 @@ main {
     padding: 100px 40px 80px 40px;
     text-align: center;
 }
-    
+
 .client-container {
     background-color: #d8bfd8;
     width: 50%;
@@ -89,7 +89,7 @@ main {
 .main-text-area h2 span {
     display: block;
 }
-    
+
 .login-link {
     color: white;
     font-weight: bold;
@@ -106,13 +106,13 @@ main {
 }
 
 .login-link:hover {
-    box-shadow: 5px 5px 10px #808080; 
+    box-shadow: 5px 5px 10px #808080;
 }
 
 .worker-login-link {
     background: var(--color-primary);
 }
-    
+
 .client-login-link {
     background: var(--color-secondary);
 }
@@ -123,7 +123,7 @@ main {
     font-size: 16px;
 }
 
-.more-link:hover  {
+.more-link:hover {
     text-decoration: none;
 }
 
@@ -146,18 +146,18 @@ p span {
 }
 
 .main-text-area {
-    display:flex;
+    display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
     line-height: 20px;
     font-weight: bold;
-    transform: translate( 0, -120px);
+    transform: translate(0, -120px);
 }
 
 .introduce {
     margin: 100px auto;
-    width: 90%; 
+    width: 90%;
 }
 
 .section-headline span {
@@ -170,16 +170,16 @@ p span {
 }
 
 .section-headline span::after {
-	display: inline;
-	content: "";
-	width: 100%;
-	height: 10px;
-	background-color: #b0c4de;
-	position:absolute;
-	bottom: -10px;
-	left: 0;
-	border-radius: 10px;
-	z-index: 100; 
+    display: inline;
+    content: "";
+    width: 100%;
+    height: 10px;
+    background-color: #b0c4de;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border-radius: 10px;
+    z-index: 100;
 }
 
 .introduce h3 {
@@ -187,7 +187,7 @@ p span {
 }
 
 .company-list-wrapper {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
     justify-content: center;
@@ -202,5 +202,3 @@ p span {
 .company-logo {
     width: 100%;
 }
-
-  
