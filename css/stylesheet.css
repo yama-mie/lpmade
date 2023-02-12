@@ -182,14 +182,14 @@ p span {
     font-size: 28px;
 }
 
-.company-list-wrapper {
+.company-list {
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
     justify-content: center;
 }
 
-.company-list {
+.company-item {
     margin: 20px;
 }
 
