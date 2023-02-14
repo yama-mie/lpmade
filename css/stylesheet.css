@@ -28,7 +28,7 @@ main {
     min-width: 1024px;
     overflow: hidden;
 }
- 
+
 .main-content {
     position: relative;
     display: flex;
@@ -49,7 +49,7 @@ main {
     padding: 100px 40px 80px 40px;
     text-align: center;
 }
-    
+
 .client-container {
     background-color: #d8bfd8;
     width: 50%;
@@ -89,7 +89,7 @@ main {
 .main-text-area h2 span {
     display: block;
 }
-    
+
 .login-link {
     color: white;
     font-weight: bold;
@@ -106,13 +106,13 @@ main {
 }
 
 .login-link:hover {
-    box-shadow: 5px 5px 10px #808080; 
+    box-shadow: 5px 5px 10px #808080;
 }
 
 .worker-login-link {
     background: var(--color-primary);
 }
-    
+
 .client-login-link {
     background: var(--color-secondary);
 }
@@ -123,7 +123,7 @@ main {
     font-size: 16px;
 }
 
-.more-link:hover  {
+.more-link:hover {
     text-decoration: none;
 }
 
@@ -146,11 +146,52 @@ p span {
 }
 
 .main-text-area {
-    display:flex;
+    display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
     line-height: 20px;
     font-weight: bold;
-    transform: translate( 0, -120px);
+    transform: translate(0, -120px);
 }
+
+.introduce {
+    padding: 128px 20px;
+}
+
+.section-headline {
+    color: #426579;
+    width: max-content;
+    margin: 0 auto;
+    display: block;
+}
+
+.section-headline::after {
+    display: block;
+    content: "";
+    height: 10px;
+    background-color: #b0c4de;
+    border-radius: 10px;
+}
+
+.section-headline + .section-headline {
+    margin-top: 20px;
+}
+
+.section-title {
+    font-size: 28px;
+}
+
+.company-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+    max-width: 1280px;
+    margin: 40px auto 0;
+}
+
+.company-item {
+    margin: 20px;
+}
+
