@@ -29,7 +29,7 @@ main {
     overflow: hidden;
 }
 
-.main-content {
+#main-content {
     position: relative;
     display: flex;
 }
@@ -155,7 +155,7 @@ p span {
     transform: translate(0, -120px);
 }
 
-.introduce {
+#introduce {
     padding: 128px 20px;
 }
 
