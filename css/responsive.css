@@ -30,7 +30,7 @@
       transform: none;
    }
  
-   .main-content {
+   #main-content {
       flex-direction: column;
    }
  
@@ -58,4 +58,16 @@
       max-width: 311px;
       display: block;
    }
+
+   #introduce {
+      padding: 64px auto 0;
+   }
+
+   .section-title {
+      font-size: 21px;
+  }
+
+  .company-item img {
+      max-width: 158px;
+  }
 }
