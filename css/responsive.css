@@ -1,73 +1,72 @@
 * {
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 767px) {
- 
-   header {
-      display: none;
-   }
+  header {
+    display: none;
+  }
 
-   main {
-      min-width: auto;
-      overflow: visible;
-   }
- 
-   .main-logo {
-      position: absolute;
-      z-index: 100;
-      top: 50px;
-      left: 50%;
-      transform: translate(-50%);
-      width: 200px;
-   }
- 
-   .main-text-area p {
-      font-size: 12px;
-   }
+  main {
+    min-width: auto;
+    overflow: visible;
+  }
 
-   .main-text-area {
-      transform: none;
-   }
- 
-   #main-content {
-      flex-direction: column;
-   }
- 
-   .worker-container {
-      padding: 40px 32px 60px 32px;
-      width: 100%;
-      text-align: center;
-   }
-     
-   .client-container {
-      width: 100%;
-      padding: 40px 32px 60px 32px;
-      text-align: center;
-   }
- 
-   .mobile {
-      width: auto;
-      margin-top: 150px;
-      max-width: 300px;
-      display: block;
-   }
- 
-   .laptop { 
-      width: auto;
-      max-width: 311px;
-      display: block;
-   }
+  .main-logo {
+    position: absolute;
+    z-index: 100;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 200px;
+  }
 
-   #introduce {
-      padding: 64px auto 0;
-   }
+  .main-text-area p {
+    font-size: 12px;
+  }
 
-   .section-title {
-      font-size: 21px;
+  .main-text-area {
+    transform: none;
+  }
+
+  #main-content {
+    flex-direction: column;
+  }
+
+  .worker-container {
+    padding: 40px 32px 60px 32px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .client-container {
+    width: 100%;
+    padding: 40px 32px 60px 32px;
+    text-align: center;
+  }
+
+  .mobile {
+    width: auto;
+    margin-top: 150px;
+    max-width: 300px;
+    display: block;
+  }
+
+  .laptop {
+    width: auto;
+    max-width: 311px;
+    display: block;
+  }
+
+  #introduce {
+    padding: 64px auto 0;
+  }
+
+  .section-title {
+    font-size: 21px;
   }
 
   .company-item img {
-      max-width: 158px;
+    max-width: 158px;
   }
 }
