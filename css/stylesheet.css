@@ -295,6 +295,7 @@ p span {
   height: 460px;
   background-color: white;
   position: relative;
+  font-weight: bold;
 }
 
 .specifics-container li {
@@ -323,14 +324,12 @@ p span {
   margin-top: 10px;
   color: #c0c0c0;
   font-size: 14px;
-  font-weight: bold;
 }
 
 .text-box {
   background-color: #274a78;
   width: fit-content;
   color: white;
-  font-weight: bold;
   font-size: 16px;
   padding: 3px 10px;
   margin: 0 auto;
@@ -342,6 +341,5 @@ p span {
 
 .job-description {
   color: #274a78;
-  font-weight: bold;
   margin-top: 18px;
 }
