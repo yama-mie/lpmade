@@ -184,7 +184,6 @@ p span {
 .company-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 40px;
   justify-content: center;
   max-width: 1280px;
   margin: 40px auto 0;
@@ -283,4 +282,66 @@ p span {
 #specifics {
   padding: 128px 0;
   background: #f5f5f5;
+}
+
+.specifics-inner {
+  margin: 150px 30px 0 30px;
+}
+
+.specifics-container {
+  border: 1px solid #b0c4de;
+  width: 300px;
+  padding: 48px 24px 40px 24px;
+  height: 460px;
+  background-color: white;
+  position: relative;
+}
+
+.specifics-container li {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  transform: translateY(-10%);
+  text-align: center;
+}
+
+.profile-icon {
+  animation-name: fadeInAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  max-width: 98px;
+}
+
+.profile-name {
+  margin-top: 18px;
+  color: #274a78;
+  font-size: 18px;
+}
+
+.company-name {
+  margin-top: 10px;
+  color: #c0c0c0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.text-box {
+  background-color: #274a78;
+  width: fit-content;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 3px 10px;
+  margin: 0 auto;
+}
+
+.corporate-destination {
+  margin-top: 30px;
+}
+
+.job-description {
+  color: #274a78;
+  font-weight: bold;
+  margin-top: 18px;
 }
