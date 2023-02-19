@@ -279,3 +279,8 @@ p span {
 .fade-up-time-19 {
   animation-delay: 1.9s;
 }
+
+#specifics {
+  padding: 128px 0;
+  background: #f5f5f5;
+}
