@@ -285,19 +285,20 @@ p span {
 }
 
 .specifics-inner {
-  margin: 150px 30px 0 30px;
+  margin: 150px auto 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 35px;
 }
 
 .specifics-container {
   border: 1px solid #b0c4de;
   width: 300px;
   padding: 48px 24px 40px 24px;
-  height: 460px;
   background-color: white;
   position: relative;
   font-weight: bold;
-  left: 50px;
-  transform: translateY(-10%);
   text-align: center;
 }
 
