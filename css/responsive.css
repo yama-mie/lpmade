@@ -69,4 +69,27 @@
   .company-item {
     max-width: 158px;
   }
+
+  .specifics-inner {
+    display: flex;
+    gap: 20px 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 100px;
+  }
+
+  .specifics-container {
+    display: inline-block;
+    width: 280px;
+    height: 386px;
+  }
+
+  .text-box {
+    font-size: 12px;
+    padding: 3px 8px;
+  }
+
+  .job-description {
+    font-size: 14px;
+  }
 }
