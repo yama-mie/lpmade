@@ -70,18 +70,17 @@
     max-width: 158px;
   }
 
+  .specifics-scroll {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
   .specifics-inner {
     display: flex;
     gap: 20px 50px;
-    overflow-x: auto;
-    white-space: nowrap;
+    margin-top: initial;
+    justify-content: initial;
     margin-top: 100px;
-  }
-
-  .specifics-container {
-    display: inline-block;
-    width: 280px;
-    height: 386px;
   }
 
   .text-box {
