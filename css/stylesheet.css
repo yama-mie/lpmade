@@ -287,7 +287,6 @@ p span {
 .specifics-inner {
   margin: 150px auto 0;
   display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
   gap: 35px;
 }
