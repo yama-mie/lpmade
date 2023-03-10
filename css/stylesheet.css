@@ -351,7 +351,7 @@ p span {
 .example-container {
   border: 1px solid #b0c4de;
   width: 400px;
-  height: 600px;
+  height: 560px;
   background-color: white;
   box-shadow: 5px 5px 10px #a9a9a9;
   margin-top: 150px;
@@ -362,24 +362,12 @@ p span {
   overflow: hidden;
 }
 
-.conjugation-review-link:before {
-  content: "";
-  display: block;
-  padding-top: 80%;
-}
-
 .conjugation-review-link img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   display: block;
 }
 
 .conjugation-review-link:hover img {
   transform: scale(1.1);
-  opacity: 0.7;
 }
 
 .review-area {
@@ -411,7 +399,6 @@ p span {
 }
 
 .review-more-link:hover {
-  opacity: 0.7;
   background-color: #a9a9a9;
   color: white;
 }
