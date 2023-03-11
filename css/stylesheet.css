@@ -355,6 +355,7 @@ p span {
   background-color: white;
   box-shadow: 5px 5px 10px #a9a9a9;
   margin-top: 150px;
+  text-align: center;
 }
 
 .conjugation-review {
@@ -388,14 +389,14 @@ p span {
 }
 
 .review-more-link {
-  display: inline-block;
   border: 1px solid #b0c4de;
   padding: 5px 100px;
   text-decoration: none;
   background-color: white;
   color: #b0c4de;
   border-radius: 5px;
-  margin-top: 40px;
+  margin-top: 30px;
+  display: inline-block;
 }
 
 .review-more-link:hover {
