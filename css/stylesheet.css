@@ -343,3 +343,63 @@ p span {
   color: #274a78;
   margin-top: 18px;
 }
+
+#example {
+  padding: 128px 20px;
+}
+
+.example-container {
+  border: 1px solid #b0c4de;
+  width: 400px;
+  height: 560px;
+  background-color: white;
+  box-shadow: 5px 5px 10px #a9a9a9;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.conjugation-review {
+  position: relative;
+  overflow: hidden;
+}
+
+.conjugation-review-link img {
+  display: block;
+}
+
+.conjugation-review-link:hover img {
+  transform: scale(1.1);
+}
+
+.review-area {
+  display: inline-block;
+  padding: 24px;
+  text-decoration: none;
+  white-space: normal;
+  text-align: center;
+}
+
+.review-text {
+  text-align: left;
+}
+
+.review-area p {
+  padding-top: 30px;
+  margin: 0px;
+}
+
+.review-more-link {
+  border: 1px solid #b0c4de;
+  padding: 5px 100px;
+  text-decoration: none;
+  background-color: white;
+  color: #b0c4de;
+  border-radius: 5px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.review-more-link:hover {
+  background-color: #a9a9a9;
+  color: white;
+}
